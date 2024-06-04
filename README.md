@@ -1,1 +1,1 @@
-This website was made a ERASMUS+ HIGHER EDUCATION  
+This website was made in ERASMUS+ HIGHER EDUCATION  
