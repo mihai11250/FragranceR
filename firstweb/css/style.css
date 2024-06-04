@@ -1,0 +1,167 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.page-container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 1rem;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.hero img.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.products {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+    flex-grow: 1;
+}
+
+.section-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.product p {
+    margin: 0.5rem 0;
+}
+
+.product-detail {
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.product-detail .product-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.product-detail .product-image {
+    flex: 1;
+}
+
+.product-detail .product-info {
+    flex: 2;
+    font-size: 18px; /* Dimensiune text mărită pentru detalii produs */
+}
+
+.product-detail .product-info h2 {
+    font-size: 2rem; /* Dimensiune mărită pentru titlu produs */
+}
+
+.product-detail .product-info p, 
+.product-detail .product-info ul {
+    font-size: 1.125rem; /* Dimensiune mărită pentru paragrafe și listă */
+}
+
+.product-detail .product-info ul li {
+    font-size: 1.125rem; /* Dimensiune mărită pentru elementele listei */
+}
+
+.about,
+.contact {
+    padding: 2rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
